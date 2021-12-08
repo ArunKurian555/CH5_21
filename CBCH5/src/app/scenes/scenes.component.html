@@ -1,0 +1,59 @@
+<p class="chheader">
+  Lighting
+</p>
+<div class="wrapper">
+
+  <cdk-virtual-scroll-viewport id="loadscroll" itemSize="120" class=" scroller " minBufferPx="2000" maxBufferPx="4000">
+    <div *cdkVirtualFor="let item of activeZones; let idx = index" class="loads animate__animated animate__fadeIn">
+      <ch5-button id="leftbutton" class="load-button" type="primary" shape="circle" size="x-small"
+        iconClass="far fa-lightbulb fa-3x" iconPosition="top" sendEventOnClick="{{activeZones[idx]*10-8}}">
+      </ch5-button>
+      <div class="container">
+        <p id="Zonename">{{activezonelabel[activeZones[idx]]}}</p>
+        <ch5-slider stretch="width" handleShape="circle" orientation="horizontal" tapSettable="true"
+          style="padding: 1em 2em 2em 2em;" sendEventOnChange="{{activeZones[idx]}}"
+          receiveStateValue="{{activeZones[idx]}}" tooltipshowtype="auto" tooltipdisplaytype="%">
+        </ch5-slider>
+      </div>
+      <ch5-button class="load-button" id="rightbutton" type="primary" shape="circle" iconClass="fas fa-lightbulb fa-3x"
+        iconPosition="top" size="x-small" sendEventOnClick="{{activeZones[idx]*10-9}}">
+      </ch5-button>
+      <div [ngStyle]="dmxfb[activeZones[idx]-1]" *ngIf="DMXactive[activeZones[idx]-1] == 1" [innerHtml]="htmlToAdd"
+        (click)="DMXcall(activeZones[idx])">
+      </div>
+    </div>
+  </cdk-virtual-scroll-viewport>
+
+
+  <div class="Scenestab">
+    <ch5-button label="Area" receivestatelabel="Area.ActiveArea" class="AreaSelect" type="primary" stretch="both"
+      (click)="Areapop()" style="padding: 0; margin: 0; font-size: 1.5em; height: 6em; width: inherit;"
+      shape="rounded-rectangle">
+    </ch5-button>
+    <div class="RL">
+      <ch5-button style="font-size: 1em; margin: .4em;" sendeventontouch="Scenes.Raise" type="primary" label="Raise"
+        iconClass="fa fa-chevron-up" shape="circle">
+      </ch5-button>
+      <ch5-button style="font-size: 1em; margin: .4em;" shape="circle" sendeventontouch="Scenes.Lower" label="Lower"
+        type="primary" iconClass="fa fa-chevron-down">
+      </ch5-button>
+    </div>
+    <div class="scenebutton">
+      <ch5-button label="Scenes" receivestatelabel="Scenes.ActiveScene" class="AreaSelect" type="primary" stretch="both"
+        (click)="Scenepop()" style="padding: 0; margin: 0; font-size: 1.5em; height: 6em; width: inherit;"
+        shape="rounded-rectangle">
+      </ch5-button>
+      <button mat-button style="
+    height: 2em;
+    margin: .2em;
+    font-size: 1.5em;
+    background: whitesmoke;" (click)="Scenesave()">Save</button>
+    </div>
+    <!--       <ch5-button class="scenebutton" type="primary" style="height: 5em; width: 5em; padding: 0; margin: 0;"
+        stretch="both" id="btn_id" size="large" shape="circle" receivestateselected="Scenes.Scenefb0"
+        sendeventontouch="Scenes.Scenes0" sendeventonclick="Scenes.Scenes0" receivestatelabel="Scenes.ScenesName0">
+      </ch5-button>
+ -->
+  </div>
+
+</div>

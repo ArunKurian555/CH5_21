@@ -1,0 +1,482 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~animate.css/animate.min";
+@import '~material-design-icons/iconfont/material-icons.css';
+
+*
+{
+  font-family: sans-serif ;
+  font-weight: normal ;
+}
+body
+{
+ font-family: sans-serif; 
+ background: azure;
+ // background-color: #e6e7ea !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text
+{
+font-weight: 350;
+font-size: x-large;
+margin: 0 0 0 0;
+padding: .2em 1em .2em 0 ;
+}
+
+.ch5-button--default {
+    border: 0px solid #0091ea !important;
+    background-color: transparent !important;
+    color:inherit !important;
+}
+
+#areas
+{
+  width: 19em!important;
+  .list-item{
+        padding: 0.2em !important;
+   background-color: rgba(255, 255, 255, 0) !important;
+    border: 0;
+    
+font-weight: 350;
+
+font-size: larger;
+
+   .cb-btn
+   {
+     .cb-lbl
+     {
+           font-size: 2em;
+
+     }
+   
+  }
+
+  }
+}
+#scene{
+  width: 12em!important;
+  .list-item{
+        padding: 0.2em !important;
+   background-color: rgba(255, 255, 255, 0) !important;
+    border: 0;
+    
+font-weight: 350;
+
+font-size: larger;
+
+   .cb-btn
+   {
+     font-size: large;
+   }
+
+  }
+}
+//////////////////////////
+/////////////////////////
+/////////////////////////
+
+#loadscroll {
+  
+  .list-item:nth-child(odd) {
+    padding: 0.2em !important;
+    background-color: rgb(255, 255, 255) !important;
+    border: 0;
+
+    .noUi-marker {
+      height: 8px;
+    }
+
+    .noUi-value-horizontal {
+      transform: translate(-50%, 3%);
+      color: rgb(0, 0, 0);
+    }
+    .noUi-target {
+      height: 0.9em;
+    }
+
+    .noUi-tooltip {
+      padding: 0.1em 0.1em 0.1em 0.1em;
+      border: 0;
+      background-color: transparent;
+    }
+    #leftbutton {
+      .ch5-button--primary {
+        background-color: #00000033;
+      }
+    }
+
+    #rightbutton {
+      .ch5-button--primary {
+        background-color: #fff14473;
+      }
+    }
+
+    .cb-icon {
+      color: white !important;
+    }
+    
+   .noUi-connect
+   {
+     background: rgb(69, 134, 255); 
+   }
+  }
+
+  .list-item:nth-child(even) {
+    padding: 0.2em !important;
+    background-color: rgba(255, 255, 255, 0.76) !important;
+    border: 0;
+    
+    .noUi-marker {
+      height: 8px;
+    }
+
+    .noUi-value-horizontal {
+      transform: translate(-50%, 3%);
+      color: rgb(0, 0, 0);
+    }
+    .noUi-target {
+      height: 0.9em;
+    }
+
+    .noUi-tooltip {
+      padding: 0.1em 0.1em 0.1em 0.1em;
+      border: 0;
+      background-color: transparent;
+    }
+    #leftbutton {
+      .ch5-button--primary {
+        background-color: #00000033;
+      }
+    }
+
+    #rightbutton {
+      .ch5-button--primary {
+        background-color: #fff14473;
+      }
+    }
+
+    .cb-icon {
+      color: white !important;
+    }
+    
+   .noUi-connect
+   {
+     background: rgb(69, 134, 255); 
+   }
+  }
+}
+
+
+
+
+
+
+
+///////////////////////////
+////////////////////////////
+
+.loads
+{
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr .3fr;
+  justify-items: center;
+  align-items: center;
+    border: 0;
+margin: 2px;
+  padding: 0.7em;
+}
+  .loads:nth-child(odd) {
+    background-color: rgb(255, 255, 255) !important;
+  
+    .noUi-marker {
+      height: 8px;
+    }
+
+    .noUi-value-horizontal {
+      transform: translate(-50%, 3%);
+      color: rgb(0, 0, 0);
+    }
+    .noUi-target {
+      height: 0.9em;
+    }
+
+    .noUi-tooltip {
+      padding: 0.1em 0.1em 0.1em 0.1em;
+      border: 0;
+      background-color: transparent;
+    }    #leftbutton {
+      .ch5-button--primary {
+        background-color: #00000033;
+      }
+    }
+
+    #rightbutton {
+      .ch5-button--primary {
+        background-color: #ffffff;
+      }
+    }
+
+    .cb-icon {
+      color: white !important;
+    }
+    
+   .noUi-connect
+   {
+     background: rgb(69, 134, 255); 
+   }
+  }
+ .loads:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.76) !important;
+
+    
+    .noUi-marker {
+      height: 8px;
+    }
+
+    .noUi-value-horizontal {
+      transform: translate(-50%, 3%);
+      color: rgb(0, 0, 0);
+    }
+    .noUi-target {
+      height: 0.9em;
+    }
+
+    .noUi-tooltip {
+      padding: 0.1em 0.1em 0.1em 0.1em;
+      border: 0;
+      background-color: transparent;
+    }
+    #leftbutton {
+      .ch5-button--primary {
+        background-color: #00000033;
+      }
+    }
+
+    #rightbutton {
+      .ch5-button--primary {
+        background-color: #ffffff;
+      }
+    }
+
+    .cb-icon {
+      color: white !important;
+    }
+    
+   .noUi-connect
+   {
+     background: rgb(69, 134, 255); 
+   }
+  }
+
+
+
+  //////Color Picker
+
+.sketch-saturation
+{
+  padding-bottom: 40% !important;
+}
+.sketch-hue
+{
+  height: 100% !important;
+}
+.sketch-alpha
+{
+  height: 0 !important;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.chrome-picker{
+  width: 55em !important  ;
+}
+.chrome-hue{
+  height: 100% !important;
+}
+.color-hue-slider
+{
+  width: 1em !important;
+    height: 2em !important;
+}
+.ng-star-inserted
+{
+  font-size: 1em !important;
+  color: black !important;
+}
+
+.mat-dialog-container{
+ background-color: whitesmoke;
+ padding: 0 !important;
+ width: auto !important; 
+}
+.cdk-overlay-pane
+{
+  justify-content: center;
+}
+
+
+
+//////////////////////// Scheduler
+
+#eventscroll{
+.cdk-virtual-scroll-content-wrapper
+{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+align-items: center;
+}
+}
+
+.events
+{
+    border: 0;
+margin: 2px;
+  height: 30vh;
+}
+
+
+.events{
+    background-color: rgb(255, 255, 255) !important;
+  
+    .noUi-marker {
+      height: 8px;
+    }
+
+    .noUi-value-horizontal {
+      transform: translate(-50%, 3%);
+      color: rgb(0, 0, 0);
+    }
+    .noUi-target {
+      height: 0.9em;
+    }
+
+    .noUi-tooltip {
+      padding: 0.1em 0.1em 0.1em 0.1em;
+      border: 0;
+      background-color: transparent;
+    }
+    .cb-icon {
+      color: white !important;
+    }
+    
+   .noUi-connect
+   {
+     background: rgb(69, 134, 255); 
+   }
+  }
+
+
+
+  /////////////////////   Sch button
+
+$ch5-white: #fff !default;
+$ch5-black: rgb(0, 0, 0) !default;
+  // source
+  .source-list .ch5-button {
+    border-color: rgba(0, 0, 0, 0.125) !important;
+    color: $ch5-black !important;
+    background-color: $ch5-white !important;
+  
+    &--selected {
+      background-color:#0d467dcf!important;
+      border-color: #00b8ffd6 !important;
+      color: $ch5-white !important;
+    }
+
+  }
+
+  
+
+//////////////////input elements
+
+.ch5-textinput__assets
+{
+  
+    border: 1px solid #366d60 !important;
+}
+
+
+.cdk-overlay-pane
+{
+  max-width: 100vw !important;
+}
+
+
+
+
+
+//////////////////////////// custom dial
+.timepicker
+{
+  width: 50em !important;
+  overflow:scroll;
+
+.ng-star-inserted
+{
+  color: white !important;
+  --clock-hand-color: #0d467dcf;
+}
+}
+
+.timepicker__header
+{
+  background-color: #0d467d !important;
+}
+.timepicker-period__btn
+{
+  color: #0d467dcf ;
+
+}
+.timepicker-button
+{
+color: #0d467dcf !important;
+
+}
+
+
+input:focus {
+    outline: 1px solid #fff;
+    outline-offset: 3px;
+}
+
+
+.Numpad
+{
+  .ch5-button--primary
+  {
+    background-color: rgb(255 255 255 / 21%);
+  }
+  .ch5-button--circle .cb-btn
+  {
+    font-size: xx-large;
+    color: #000000a8;
+  }
+  .ch5-button--pressed
+  {
+    background-color: rgba(255, 255, 255, 0) !important;
+  }
+
+
+
+
+}
+
+
+
+.AreaSelect
+{
+  .ch5-button--selected
+  {
+    background-color: rgb(0 255 50 / 68%)!important;
+  }
+
+}
+
+
+.contain{
+  .mat-fab .mat-button-wrapper
+  {
+    padding: 0px !important;
+  }
+  }

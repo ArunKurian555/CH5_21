@@ -1,0 +1,135 @@
+.clocktiles
+{
+    height: 80vh;
+
+    
+}
+
+
+.scroller
+{
+height: 90vh;
+width: 80vw;
+}
+
+.eventitem
+{
+    margin: 1em;
+}
+
+
+.contain
+{
+    height: inherit;
+    
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+
+}
+.time{
+
+    font-size: 3rem;
+    text-align: center;
+    padding: 0em !important;
+}
+
+.aligner
+{
+padding-top: .8rem ;
+margin: 0 ;
+font-family: sans-serif;
+}
+
+
+.chheader
+{
+font-weight: 400;
+font-size: 2em;
+margin: 0 0 0 0;
+padding: .2em 1em .2em 0 ;
+color: rgb(0, 0, 0);
+width: 100vw;
+
+    margin-left: .5em;
+
+}
+
+.customdial
+{
+    color: white;
+    
+    justify-self: right;
+    border-bottom-style: dashed;
+    button
+    {
+    height: 4em !important;
+    width: 4em !important;
+    }
+}
+
+.main
+{
+    width: 100vw;
+    height: 100vh;
+    justify-items: center;
+    align-items: center;
+display: grid;
+background: azure   ;
+}
+
+.days{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+
+}
+.day{
+    background: azure;
+    margin: .2em;
+}
+
+.events{
+    border: #00000052;
+    border-style: double;
+}
+
+.mat-button-toggle-appearance-standard
+{
+    color: #000;
+    background: #00000026;
+    border-radius: 10px;
+}
+
+
+.mat-button-toggle-checked
+{
+    background-color: #07597cde;
+    color: rgb(255 255 255 / 70%);
+}
+
+@media screen and (max-width : 700px)
+
+
+{
+    
+.scroller
+{
+width: 100vw;
+}
+
+}
+
+
+@media screen and (max-width : 400px)
+
+
+{
+    .days{
+
+        grid-gap: 0px;
+    }
+}
+
+

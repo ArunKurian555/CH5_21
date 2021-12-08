@@ -1,0 +1,184 @@
+
+.AreaSelect{
+width: 100%;
+}
+
+mat-slider {
+  width: 100%;
+}
+// .dmxfb
+// {
+// width: 2.5em;
+// height: 2.5em;
+// border: solid; 
+// border-width: 2px;
+// padding: 1.4em;
+// }
+.wrapper {
+  display: grid;
+  grid-template-rows: 1fr  4.5fr;
+  height: 70vh;
+  width: 60vw;
+  align-items: center;
+  justify-items: center;
+  padding-top: 0.5em;
+    padding-right: 0em;
+    padding-bottom: 0em;
+    padding-left: 0em;
+  background-color: #a9cdcd;
+
+}
+
+.load {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr  ;
+  align-items: center;
+  padding-top: 0em;
+}
+
+.load-button {
+  display: grid;
+  align-items: center;
+}
+
+
+.chheader
+{
+font-weight: 400;
+font-size: 2em;
+margin: 0 0 0 0;
+padding: .2em 1em .2em 0 ;
+color: rgb(0, 0, 0);
+width: 100vw;
+
+    margin-left: .5em;
+
+}
+
+.scroller
+{
+display: flex;
+justify-content: center;
+align-items: center;
+box-sizing: border-box;
+height: inherit;
+width: 100%;
+}
+
+
+#Zonename
+{
+  text-align: center;
+}
+
+
+
+
+
+
+
+.Scenestab
+{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+
+}
+
+.scenebutton{
+  display: grid;
+  width: unset;
+margin: 1em;
+justify-items: center;
+  button
+  {
+      border: 1px solid #bdbdbd;
+    margin: .5em;
+    font-size: 1.5em;
+    background: white;
+
+  }
+}
+
+.vscroll
+{
+  
+  height: 50vh;
+  width: inherit;
+}
+
+.ch5btn{
+  font-size: 1em; margin: .4em;
+  
+}
+
+
+
+
+.RLlarge
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.RLshort
+{
+  display: none;
+}
+
+
+
+// When resolution <= 1000px, hide full text and show short text
+@media (max-width: 1000px) {
+  .RLshort { display: inline-block;  display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center; }
+  .RLlarge { display: none; }
+  
+}
+@media (max-width: 300px) {
+  .RLshort { display: none;}
+  .RLlarge { display: none; }
+
+}
+
+
+
+.Ls
+{
+}
+
+.Ss
+{
+  display: none;
+}
+
+
+
+// When resolution <= 1000px, hide full text and show short text
+@media (max-width: 600px) {
+  .Ss { display: none;}
+  .Ls { display: none; }
+  .loads{
+    display: flex;
+  }
+  .Scenestab
+  {
+  grid-template-columns: none !important;
+  }
+}
+
+.show{
+display: grid !important;
+width: inherit;
+}
+
+
+.show1{
+  grid-template-columns: 1fr !important;
+}

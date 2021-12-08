@@ -1,0 +1,146 @@
+// .contain
+// {
+//     width: 100%;
+   
+//     height: 100vh;
+// //     display: grid;
+// //     grid-template-rows: 4fr 1fr;
+// //     justify-items: center;
+// //     align-items:center;
+// // background:url("./photo.jpg");
+// // background-repeat: no-repeat;
+// // background-size: cover;
+// background: #e6e7ea;
+// // display: flex;
+// // justify-content: center;
+// }
+// .bottom
+// {
+//     height: 100vh;
+// }
+
+
+// @media screen and (min-aspect-ratio : 13/8) {
+
+//     .contain
+// {
+//     width: 100%;
+//     height: 100%;
+//     display: grid;
+//     grid-template-columns: 1fr;
+//     justify-items: center;
+//     align-items:center;
+
+//     background:url("./photo.jpg");
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     }
+
+// }
+
+
+.web-cam { 
+    width: 40vh;
+    height: 40vh;
+    border-radius: 10em;
+    // margin: 3em;
+    -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+  }
+  
+  video {
+    width: 80vh;
+    height: 80vh;
+    position: relative;
+    top: -20vh;
+    left: -20vh;
+  }
+
+
+  .con{
+      width: 100vw;
+      height: 100vh;
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      background: azure;
+  }
+
+.small{
+  display: none;
+}
+  @media screen and (max-width : 700px)
+  {
+
+    
+.web-cam { 
+    width: 20em;
+    height: 20em;
+    border-radius: 10em;
+    // margin: 3em;
+    -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+  }
+  
+  video {
+    width: 40em;
+    height: 40em;
+    position: relative;
+    top: -10em;
+    left: -10em;
+  }
+
+
+  }
+
+
+  
+
+  @media screen and (max-width : 400px)
+  {
+  video {
+    display: none;
+  }
+  
+  .small{
+   
+    background: azure;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+  }
+  .img
+  {
+    width: 100vw;
+    border-radius: 30em;
+  }
+.web-cam{
+  display: none;
+
+}
+  }
+
+  @media screen and (max-height : 400px)
+  {
+
+    video {
+      display: none;
+    }
+    
+    .small{
+     
+      background: azure;
+      width: 100%;
+      height: 100%;
+      display: grid;
+      align-items: center;
+    }
+    .img
+    {
+      width: 100vw;
+      border-radius: 30em;
+    }
+  .web-cam{
+    display: none;
+  
+  }
+  }

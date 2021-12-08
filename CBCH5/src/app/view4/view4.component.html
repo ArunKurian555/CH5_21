@@ -1,0 +1,52 @@
+
+<div class="contain">
+    <button  class="buttons" mat-raised-button (click)="onclick()">
+        <!-- <mat-icon class="fas fa-lock fa-2x" style="margin: 1vw;"></mat-icon> -->
+        <p>Lock</p>
+    </button>
+
+    <button class="buttons" mat-raised-button (click)="editname()">
+        <!-- <mat-icon class="fas fa-edit fa-2x" style="margin: 1vw;"></mat-icon> -->
+        <p>Rename</p>
+    </button>
+    
+    <button class="buttons" mat-raised-button (click)="Passcode()">
+        <!-- <mat-icon class="fas fa-key fa-2x" style="margin: 1vw;"></mat-icon> -->
+        <p>Passcode</p>
+    </button>
+    
+    <button  class="buttons" mat-raised-button (click)="floorplan()">
+        <!-- <mat-icon class="fas fa-building fa-2x" style="margin: 1vw;" > </mat-icon> -->
+        <p>Floorplan</p>
+    </button>
+    <button class="buttons " mat-raised-button (click)="clicked2($event)" >
+        <mat-icon class="fas fa-save fa-2x" style="margin: 1vw;"> <span class="material-icons" style="font-size: 5rem;" >
+                
+            </span></mat-icon>
+        <p class="savebutton"></p>
+    </button>
+ 
+    <div>
+        <button class="buttons" mat-raised-button (click)="ramptime()">
+            <!-- <mat-icon class="fas fa-edit fa-2x" style="margin: 1vw;"></mat-icon> -->
+            <p>Ramp Time</p>
+        </button></div>
+    <div>
+        <button class="buttons" mat-raised-button (click)="toggle1()" >
+            <!-- <mat-icon class="fas fa-edit fa-2x" style="margin: 1vw;"></mat-icon> -->
+            <p style="margin: 0;">Programmer</p>
+            <mat-slide-toggle color="primary"  [checked]="useDefault" (change)="toggle($event)"></mat-slide-toggle>
+        </button>
+        
+    </div>
+    <div>
+        <button class="buttons" mat-raised-button (click)="Scheduler()">
+            <!-- <mat-icon class="fas fa-edit fa-2x" style="margin: 1vw;"></mat-icon> -->
+            <p>Scheduler</p>
+        </button></div>
+        <div>
+            <button class="buttons" mat-raised-button >
+                <!-- <mat-icon class="fas fa-edit fa-2x" style="margin: 1vw;"></mat-icon> -->
+                <p>Zone Select</p>
+            </button></div>
+</div>

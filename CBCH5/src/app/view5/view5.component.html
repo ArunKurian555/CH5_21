@@ -1,0 +1,72 @@
+<div class="main">
+<cdk-virtual-scroll-viewport id="eventscrollsch" itemSize="7" class=" scroller ">
+    <div *cdkVirtualFor="let item of evt; let idx = index" class="events animate__animated animate__fadeIn">
+        <div class=" source-list contain">
+            <p class="aligner time" style="font-size: 1.5rem;">{{Events[idx].time}}</p>
+            <!-- <p class="aligner" style=" text-align: center; font-size: .7rem;">{{Events[idx].days}}</p> -->
+            <div name="Days" class="days" > 
+
+                <!-- <mat-button-toggle-group class="days" name="Days" aria-label="Days" multiple>
+                    <mat-button-toggle value="Su" checked="Su{{idx}}" (change)="onValChange($event,idx)">Su</mat-button-toggle>
+                    <mat-button-toggle value="Mo" checked="Mo{{idx}}"(change)="onValChange($event,idx)">Mo</mat-button-toggle>
+                    <mat-button-toggle value="Tu" (change)="onValChange($event,idx)">Tu</mat-button-toggle>
+                    <mat-button-toggle value="We" (change)="onValChange($event,idx)">We</mat-button-toggle>
+                    <mat-button-toggle value="Th" (change)="onValChange($event,idx)">Th</mat-button-toggle>
+                    <mat-button-toggle value="Fr" (change)="onValChange($event,idx)">Fr</mat-button-toggle>
+                    <mat-button-toggle value="Sa" (change)="onValChange($event,idx)">Sa</mat-button-toggle>
+                  </mat-button-toggle-group> -->
+                <ch5-button label="M"
+                sendEventOnClick="Sch.Mo{{idx}}"
+                receiveStateSelected="Sch.fbMo{{idx}}"
+                type="primary"
+                shape="rectangle" size="x-small"></ch5-button>
+                <ch5-button label="T"
+                sendEventOnClick="Sch.Tu{{idx}}"
+                receiveStateSelected="Sch.fbTu{{idx}}"
+                type="primary"
+                shape="rectangle" size="x-small"></ch5-button>
+                <ch5-button label="W"
+                sendEventOnClick="Sch.We{{idx}}"
+                receiveStateSelected="Sch.fbWe{{idx}}"
+                type="primary"
+                shape="rectangle" size="x-small"></ch5-button>
+                <ch5-button label="T"
+                sendEventOnClick="Sch.Th{{idx}}"
+                receiveStateSelected="Sch.fbTh{{idx}}"
+                type="primary"
+                shape="rectangle" size="x-small"></ch5-button>
+                <ch5-button label="F"
+                sendEventOnClick="Sch.Fr{{idx}}"
+                receiveStateSelected="Sch.fbFr{{idx}}"
+                type="primary"
+                shape="rectangle" size="x-small"></ch5-button>
+                <ch5-button label="S"
+                sendEventOnClick="Sch.Sa{{idx}}"
+                receiveStateSelected="Sch.fbSa{{idx}}"
+                type="primary"
+                shape="rectangle" size="x-small"></ch5-button>
+                <ch5-button label="S"
+                sendEventOnClick="Sch.Su{{idx}}"
+                receiveStateSelected="Sch.fbSu{{idx}}"
+                type="primary"
+                shape="rectangle" size="x-small"></ch5-button>
+            </div>
+            <p class="aligner" style=" text-align: center; padding-top: 0%; font-size: 1rem;">{{Events[idx].name}}</p>
+            <ch5-button style="text-align: center;display: block;" type="primary" shape="circle"
+                iconClass="fa fa-check fa-3x" iconPosition="top" size="x-small" receiveStateSelected="{{evtf[idx]}}"
+                sendEventOnTouch="{{evt[idx]}}" sendEventOnClick="{{evt[idx]}}">
+            </ch5-button>
+            <div class="customdial">
+                <div class="custom-theme-example">
+                    <ngx-material-timepicker-toggle [for]="toggleTimepicker"></ngx-material-timepicker-toggle>
+                    <ngx-material-timepicker #toggleTimepicker [format]=12 (timeSet)="setTime($event,idx)" >
+                    </ngx-material-timepicker>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</cdk-virtual-scroll-viewport>
+
+<button mat-raised-button color="accent" (click)="clicked()" style="text-align: center; width: 5vw; background-color: aliceblue; padding: 0;"> OK </button>
+</div>

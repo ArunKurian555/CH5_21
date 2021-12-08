@@ -1,0 +1,45 @@
+.Numpad
+{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 20em;
+    height: 25em;
+    background: #84bbf31a;
+    border-radius: 3em;
+    
+
+   }
+.last
+{
+    transform: translateX(6.8em);
+}
+
+.contain
+{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 6fr;
+    justify-items: center;
+    background: azure;
+   //background: #ffa5a5c7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: scroll;
+}
+
+.pass{
+display: flex;
+align-self: flex-end;
+}
+
+
+.top
+{
+
+    text-align: center;
+    margin-top: 3em;
+    font-size: large;
+}

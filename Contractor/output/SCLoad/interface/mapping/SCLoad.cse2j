@@ -1,0 +1,11 @@
+{
+	"name": "SCLoad",
+	"timestamp": "2020-05-27 11:53:40.059",
+	"version": "1.0.0.0",
+	"schema_version": 1,
+	"extra_value": "",
+	"signals": {
+		"states": {},
+		"events": {}
+	}
+}

@@ -1,0 +1,12 @@
+<div>
+    <p class="text">Select Area</p>
+    <ch5-list id="areas" itemWidth="100%" scrollbar="true" receivestatesize="Area.Size" orientation="vertical"
+        indexId="idx" maxheight="70vh">
+        <template ngNonBindable>
+            <ch5-button type="primary" style="height: 10em; padding: 0; margin: 0;" stretch="both"
+                receivestatelabel="Area.AreaName{{idx}}" size="regular" shape="rounded-rectangle"
+                receivestateselected="Area.AreaSelected{{idx}}" sendEventOnClick="Area.AreaSelect{{idx}}">
+            </ch5-button>
+        </template>
+    </ch5-list>
+</div>

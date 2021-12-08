@@ -1,0 +1,4 @@
+cd C:\Users\arune\OneDrive - SLSLTG\Cold_Brew\Touch Panel\HTML5\V_Workshop_250
+ git add .
+ git commit -m "Changes"
+ git push 

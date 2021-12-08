@@ -1,0 +1,24 @@
+{
+	"name": "Contract",
+	"timestamp": "2020-05-19 13:28:46.508",
+	"version": "1.0.0.0",
+	"schema_version": 1,
+	"extra_value": "",
+	"signals": {
+		"states": {
+			"numeric": {
+				"1": {
+					"1": "Component_0.NumberOfLights"
+				}
+			}
+		},
+		"events": {
+			"numeric": {
+				"Component_0.NumberOfLight": {
+					"joinId": 1,
+					"smartObjectId": 1
+				}
+			}
+		}
+	}
+}

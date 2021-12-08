@@ -1,0 +1,71 @@
+@import "scss/functions";
+@import "scss/variables";
+@import "scss/mixins";
+.homebutton {
+  background-color: rgba(255, 255, 255, 0) !important;
+  color: black;
+  margin: 0 0;
+  width: 95%;
+
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.aligner {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  height: 5vh;
+  grid-template-columns: 1fr 1fr ;
+  background-color: #000000;
+  color: transparent;
+}
+.btn {
+  margin: 0 0;
+  width: 95%;
+  background-color: rgb(197, 197, 197);
+}
+
+.main-swiper {
+  margin: 0 0;
+  padding: 0 0;
+  width: 100vw;
+  height: 100vh;
+}
+.row {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.buttons {
+  color: black;
+  background-color: #ffffff85;
+}
+
+button:hover,
+button:focus {
+  background: #b5bcc278;
+}
+
+button:focus {
+  outline: 0px solid #fff;
+  outline-offset: -4px;
+}
+
+button:active {
+  transform: scale(0.99);
+}

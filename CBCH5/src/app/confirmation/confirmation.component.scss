@@ -1,0 +1,20 @@
+
+
+.buttons{
+    color: black;
+    background-color:  white;
+}
+
+button:hover,
+button:focus {
+      background: white;
+}
+
+button:focus {
+    outline: 0px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}

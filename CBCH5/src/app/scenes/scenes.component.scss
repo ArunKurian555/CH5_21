@@ -1,0 +1,98 @@
+
+.AreaSelect{
+width: 100%;
+}
+
+mat-slider {
+  width: 100%;
+}
+.dmxfb
+{
+width: 2.5em;
+height: 2.5em;
+border: solid; 
+border-width: 2px;
+    padding: 1.4em;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 4.5fr 1fr;
+  height: 80vh;
+  align-items: center;
+  justify-items: center;
+  padding: .4em;
+  
+ 
+}
+
+.load {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr  ;
+  align-items: center;
+  padding-top: 0em;
+}
+
+.load-button {
+  display: grid;
+  align-items: center;
+}
+
+
+.chheader
+{
+font-weight: 400;
+font-size: 2em;
+margin: 0 0 0 0;
+padding: .2em 1em .2em 0 ;
+color: rgb(0, 0, 0);
+width: 100vw;
+
+    margin-left: .5em;
+
+}
+
+.scroller
+{
+display: flex;
+justify-content: center;
+align-items: center;
+box-sizing: border-box;
+height: 80vh;
+width: 100%;
+}
+
+
+#Zonename
+{
+  text-align: center;
+}
+
+.RL
+{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+}
+
+
+
+
+
+
+
+.Scenestab
+{
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: inherit;
+}
+
+.scenebutton{
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  width: inherit;
+  }

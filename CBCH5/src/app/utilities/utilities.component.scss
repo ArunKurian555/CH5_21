@@ -1,0 +1,147 @@
+.row {
+  width: 100vw;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.wrapper {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 0.1em;
+  grid-auto-rows: minmax(100px, auto);
+  justify-items: stretch;
+}
+.wrapper > div {
+  background-color: rgb(71, 68, 68);
+
+  display: grid;
+
+  justify-items: end;
+}
+
+.wrapper > div:nth-child(odd) {
+  background-color: rgb(105, 97, 97);
+}
+
+
+.chheader
+{
+font-weight: 400;
+font-size: 2em;
+margin: 0 0 0 0;
+padding: .2em 1em .2em 0 ;
+color: rgb(0, 0, 0);
+width: 100vw;
+
+    margin-left: .5em;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$pale-white: #f6f6f6;
+@mixin round($radius){
+   -webkit-border-radius: $radius;
+   -moz-border-radius: $radius;
+   -o-border-radius: $radius;
+   border-radius: $radius;
+}
+@mixin anime($time, $cubic){
+   -webkit-transition: all $time $cubic;
+   -moz-transition: all $time $cubic;
+   -o-transition: all $time $cubic;
+   transition: all $time $cubic;
+}
+@mixin center(){
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate(-50%, -50%);
+   -moz-transform: translate(-50%, -50%);
+   -o-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+}
+
+
+.three{
+  height: 75vh;
+   background-color: black;
+    #button{
+      margin: 0;
+       width: 2em;
+       height: 2em;
+       color: $pale-white;
+       font-size: 2.5em;
+       @include anime(0.6s, (cubic-bezier(.55,0,.1,1)));
+       cursor: pointer;
+       box-shadow: 0px 0px 0px #fff;
+     
+       .ring{
+          position: relative;
+          width: 10px;
+          height: 10px;
+          background: #fff;
+          @include round(50px);
+          top: 40%;
+          left: 45%;
+          @include anime(1s,(cubic-bezier(.55,0,.1,1)));
+          transform:perspective(800px)  translate3d(0%,0%,0%);
+          opacity: 0;
+       }
+       
+       &:hover .one{
+          transform:perspective(800px)  translate3d(1em,1em,0em);
+          opacity: 2;
+       }
+        &:hover .two{
+          transform:perspective(800px)  translate3d(-1em,-1em,0em);
+          opacity: 1.6;
+       }
+        &:hover .three{
+          transform:perspective(800px)  translate3d(-1em,1em,0em);
+          opacity: 1.3;
+       }
+       &:hover .four{
+          transform:perspective(800px)  translate3d(1em,1.2em,0em);
+          opacity: 1.1;
+       }
+   }
+   }
+
+
+
+
+
+
+
+

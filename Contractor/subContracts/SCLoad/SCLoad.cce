@@ -1,0 +1,108 @@
+{
+	"Errors": [],
+	"id": "_de6yut12p",
+	"name": "SCLoad",
+	"description": "",
+	"company": "SLS",
+	"client": "",
+	"author": "AK",
+	"version": "1.0.0.0",
+	"schemaVersion": 1,
+	"subContractLinks": [],
+	"subContracts": [],
+	"specifications": [],
+	"components": [
+		{
+			"Errors": [],
+			"parentId": "_de6yut12p",
+			"id": "_6qu9wt6xt",
+			"name": "SCLoad",
+			"commands": [
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_ap1xio6c0",
+					"dataType": 1,
+					"notes": "",
+					"id": "_8gwiziiqs",
+					"parentId": "_6qu9wt6xt",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_51ez59h04",
+					"dataType": 1,
+					"notes": "",
+					"id": "_xm62o0n1w",
+					"parentId": "_6qu9wt6xt",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "LoadLevelOP",
+					"siblingId": "_ojefx7tpi",
+					"dataType": 2,
+					"notes": "",
+					"id": "_o2etjfkhb",
+					"parentId": "_6qu9wt6xt",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "LoadName",
+					"siblingId": "_afvl8dkoc",
+					"dataType": 3,
+					"notes": "",
+					"id": "_wd8t1rbmu",
+					"parentId": "_6qu9wt6xt",
+					"attributeType": 0
+				}
+			],
+			"feedbacks": [
+				{
+					"Errors": [],
+					"name": "LoadOn",
+					"siblingId": "_8gwiziiqs",
+					"dataType": 1,
+					"notes": "",
+					"id": "_ap1xio6c0",
+					"parentId": "_6qu9wt6xt",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "LoadOff",
+					"siblingId": "_xm62o0n1w",
+					"dataType": 1,
+					"notes": "",
+					"id": "_51ez59h04",
+					"parentId": "_6qu9wt6xt",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "LoadLevelIP",
+					"siblingId": "_o2etjfkhb",
+					"dataType": 2,
+					"notes": "",
+					"id": "_ojefx7tpi",
+					"parentId": "_6qu9wt6xt",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_wd8t1rbmu",
+					"dataType": 0,
+					"notes": "",
+					"id": "_afvl8dkoc",
+					"parentId": "_6qu9wt6xt",
+					"attributeType": 1
+				}
+			],
+			"specifications": []
+		}
+	],
+	"allComponentsForAllContracts": []
+}

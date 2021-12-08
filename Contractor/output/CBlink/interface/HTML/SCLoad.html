@@ -1,0 +1,16 @@
+<template id="CBlink.SCLoad.SCLoad">
+	<ch5-list id="SCLoad.SCLoad" indexId="idx1" size="10" orientation="horizontal">
+ 	 	 <template>
+ 	 	 <div class="horizontal-list-item">
+	 		<ch5-button sendEventOnClick="SCLoad[{{idx1}}].LoadOn">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="SCLoad[{{idx1}}].LoadOff">
+        	</ch5-button>
+	 		<ch5-slider sendEventOnChange="SCLoad[{{idx1}}].LoadLevelIP" receiveStateValue="SCLoad[{{idx1}}].LoadLevelOP">
+        	</ch5-slider>
+	 	<span data-ch5-textcontent="SCLoad[{{idx1}}].LoadName">Label</span>
+	 	 </div> 
+ 	 	</template>
+ 	</ch5-list>
+
+</template>

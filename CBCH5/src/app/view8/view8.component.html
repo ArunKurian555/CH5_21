@@ -1,0 +1,26 @@
+<div class="contain">
+  <div  class="top">
+    <p>Enter PIN to open</p>
+    <p>Your PIN contains 4 digits</p>
+  </div>
+
+  <div class="pass">
+    <ch5-button     receivestatelabel="Pinpad.Dialog" size="x-large"   >
+    </ch5-button>
+  </div>
+
+    <div class="Numpad">
+      <div class="Num" *ngFor="let a of number; index as i;let last = last" [ngClass]="{'last' : last}">
+      <ch5-button label="{{a}}"
+      sendEventOnClick="Pinpad.N{{i+1}}"
+      type="primary"
+      shape="circle" size="small"
+       >
+    </ch5-button>
+    </div>
+    </div>
+    
+    </div>
+
+
+    receivestatelabel="Pinpad.Dialog"

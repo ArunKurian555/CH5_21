@@ -1,0 +1,16 @@
+<template id="CBlink.Load.Load">
+	<ch5-list id="Load.Load" indexId="idx1" size="10" orientation="horizontal">
+ 	 	 <template>
+ 	 	 <div class="horizontal-list-item">
+	 		<ch5-button sendEventOnClick="Load[{{idx1}}].On" receiveStateSelected="Load[{{idx1}}].IsOn">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Load[{{idx1}}].Off" receiveStateSelected="Load[{{idx1}}].IsOff">
+        	</ch5-button>
+	 		<ch5-slider sendEventOnChange="Load[{{idx1}}].LevelIn" receiveStateValue="Load[{{idx1}}].LevelOut">
+        	</ch5-slider>
+	 	<span data-ch5-textcontent="Load[{{idx1}}].LoadName">Label</span>
+	 	 </div> 
+ 	 	</template>
+ 	</ch5-list>
+
+</template>

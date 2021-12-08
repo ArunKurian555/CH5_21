@@ -1,0 +1,66 @@
+.contain
+{
+    width: 80vw;
+    height: 80vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  
+}
+
+
+.item2 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  
+}
+
+
+.scroller
+{
+display: flex;
+justify-content: center;
+align-items: center;
+box-sizing: border-box;
+height: 50vh;
+width: 100%;
+}
+
+
+
+.buttons{
+    color: black;
+    background-color: #ffffff85;
+}
+
+button:hover,
+button:focus {
+      background: #b5bcc278;
+}
+
+button:focus {
+    outline: 0px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+.span
+{
+    width: 75%;
+}
+
+
+.areaspan
+{
+  display: grid;
+  grid-template-columns: 20fr 1fr;
+}

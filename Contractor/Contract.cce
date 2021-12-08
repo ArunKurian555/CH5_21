@@ -1,0 +1,57 @@
+{
+	"Errors": [],
+	"id": "_pr19st6tv",
+	"name": "Contract",
+	"description": "",
+	"company": "",
+	"client": "",
+	"author": "",
+	"version": "1.0.0.0",
+	"schemaVersion": 1,
+	"subContractLinks": [],
+	"subContracts": [],
+	"specifications": [
+		{
+			"Errors": [],
+			"parentId": "_pr19st6tv",
+			"id": "_3ep1p371f",
+			"componentId": "_9we7c7gsa",
+			"instanceName": "Component_0",
+			"numberOfInstances": 1
+		}
+	],
+	"components": [
+		{
+			"Errors": [],
+			"parentId": "_pr19st6tv",
+			"id": "_9we7c7gsa",
+			"name": "Component_0",
+			"commands": [
+				{
+					"Errors": [],
+					"name": "NumberOfLights",
+					"siblingId": "_vxhht0ykw",
+					"dataType": 2,
+					"notes": "",
+					"id": "_hjru532q6",
+					"parentId": "_9we7c7gsa",
+					"attributeType": 0
+				}
+			],
+			"feedbacks": [
+				{
+					"Errors": [],
+					"name": "NumberOfLight",
+					"siblingId": "_hjru532q6",
+					"dataType": 2,
+					"notes": "",
+					"id": "_vxhht0ykw",
+					"parentId": "_9we7c7gsa",
+					"attributeType": 1
+				}
+			],
+			"specifications": []
+		}
+	],
+	"allComponentsForAllContracts": []
+}

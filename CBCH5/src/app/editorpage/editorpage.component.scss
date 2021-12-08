@@ -1,0 +1,28 @@
+.buttons{
+    color: black;
+    background-color: #ffffff85;
+    
+    margin-top: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    margin-left: 0em;
+}
+
+button:hover,
+button:focus {
+      background: #b5bcc278;
+}
+
+button:focus {
+    outline: 0px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+.item3
+{
+    margin: 1em;
+}

@@ -1,0 +1,68 @@
+<div class="wrapper">
+    <div [ngClass]="{'show1': step !== 'step1'}" class="Scenestab">
+        <div [ngClass]="{'show': step === 'step1'}" style="display: none;">
+        <div class="RLlarge">
+            <ch5-button  class="ch5btn" sendeventonclick="Scenes.Raise" type="primary"
+                label="Raise" iconClass="fa fa-chevron-up" >
+            </ch5-button>
+            <ch5-button  class="ch5btn"  sendeventonclick="Scenes.Lower"
+                label="Lower" type="primary" iconClass="fa fa-chevron-down">
+            </ch5-button>
+        </div>
+        <div class="RLshort Ls">
+            <ch5-button  class="ch5btn" sendeventonclick="Scenes.Raise" type="primary"
+                label="" size="x-small" shape="rounded-rectangle" iconClass="fa fa-chevron-up" >
+            </ch5-button>
+            <ch5-button  class="ch5btn"  sendeventonclick="Scenes.Lower"
+                label="" type="primary" size="x-small" shape="rounded-rectangle" iconClass="fa fa-chevron-down">
+            </ch5-button>
+        </div>
+
+
+        <div style="width: inherit; display: grid; justify-items: center;">
+            
+        <p style="text-align: center;" class="Ls">Master Slider</p>
+            <ch5-slider  class="Ls" stretch="width" handleShape="circle" orientation="horizontal" tapSettable="true"
+            style="padding: 1em 2em 2em 2em;" min="0" max="65535" step="3276" sendEventOnChange="201" receiveStateValue="201" tooltipshowtype="auto" tooltipdisplaytype="%" role="Area">
+            </ch5-slider>
+
+        </div>
+        </div>
+        <div class="scenebutton">
+            <ch5-button label="Scenes" label="Scenes" class="AreaSelect" type="primary"
+                stretch="both" (click)="Scenepop()"
+                style="padding: 0;font-size: larger; height: 2em; width: inherit;"
+                shape="rounded-rectangle">
+            </ch5-button>
+            <button mat-button class="fas fa-save fa-2x" style="font-size: large;background: whitesmoke;" (click)="Scenesave()"></button>
+            <div (click)="expand()">...</div>
+        </div>
+</div>
+<div class="vscroll">
+    <cdk-virtual-scroll-viewport id="loadscroll" itemSize="120" class=" scroller " minBufferPx="600"
+    maxBufferPx="1500">
+    <div *cdkVirtualFor="let item of activeZones; let idx = index" class="loads animate__animated animate__fadeIn">
+        <ch5-button id="leftbutton" class="load-button Ls" type="primary"  size="x-small" label="Off" sendEventOnClick="{{activeZones[idx]*10-8}}">
+        </ch5-button>
+        <div class="container">
+            <p id="Zonename">{{activezonelabel[activeZones[idx]]}}</p>
+            <ch5-slider stretch="width" handleShape="circle" orientation="horizontal" tapSettable="true"
+                style="padding: 1em 2em 2em 2em;" sendEventOnChange="{{activeZones[idx]}}"
+                receiveStateValue="{{activeZones[idx]}}" tooltipshowtype="auto" tooltipdisplaytype="%">
+            </ch5-slider>
+        </div>
+        <ch5-button class="load-button Ls" id="rightbutton" type="primary"  label="On" size="x-small"
+            sendEventOnClick="{{activeZones[idx]*10-9}}">
+        </ch5-button>
+        <div [ngStyle]="dmxfb[activeZones[idx]-1]" *ngIf="DMXactive[activeZones[idx]-1] == 1" style="width: 2.5em;height: 2.5em; margin: 1.4em; border: solid;border-width: 2px;"
+            (click)="DMXcall(activeZones[idx])">
+        </div>
+    </div>
+</cdk-virtual-scroll-viewport>
+</div>
+    
+
+
+    
+
+</div>

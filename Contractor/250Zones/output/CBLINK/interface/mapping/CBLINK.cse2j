@@ -1,0 +1,2048 @@
+{
+	"name": "CBLINK",
+	"timestamp": "2021-12-03 10:26:43.747",
+	"version": "1.0.0.0",
+	"schema_version": 1,
+	"extra_value": "",
+	"signals": {
+		"states": {
+			"boolean": {
+				"1": {
+					"1": "Area.AreaSelected0",
+					"2": "Area.AreaSelected1",
+					"3": "Area.AreaSelected2",
+					"4": "Area.AreaSelected3",
+					"5": "Area.AreaSelected4",
+					"6": "Area.AreaSelected5",
+					"7": "Area.AreaSelected6",
+					"8": "Area.AreaSelected7",
+					"9": "Area.AreaSelected8",
+					"10": "Area.AreaSelected9",
+					"11": "Area.AreaSelected10",
+					"12": "Area.AreaSelected11",
+					"13": "Area.AreaSelected12",
+					"14": "Area.AreaSelected13",
+					"15": "Area.AreaSelected14",
+					"16": "Area.AreaSelected15",
+					"17": "Area.AreaSelected16",
+					"18": "Area.AreaSelected17",
+					"19": "Area.AreaSelected18",
+					"20": "Area.AreaSelected19",
+					"21": "Area.AreaSelected20",
+					"22": "Area.AreaSelected21",
+					"23": "Area.AreaSelected22",
+					"24": "Area.AreaSelected23",
+					"25": "Area.AreaSelected24",
+					"26": "Area.AreaSelected25",
+					"27": "Area.AreaSelected26",
+					"28": "Area.AreaSelected27",
+					"29": "Area.AreaSelected28",
+					"30": "Area.AreaSelected29",
+					"31": "Area.AreaSelected30",
+					"32": "Area.AreaSelected31",
+					"33": "Area.AreaSelected32",
+					"34": "Area.AreaSelected33",
+					"35": "Area.AreaSelected34",
+					"36": "Area.AreaSelected35",
+					"37": "Area.AreaSelected36",
+					"38": "Area.AreaSelected37",
+					"39": "Area.AreaSelected38",
+					"40": "Area.AreaSelected39",
+					"41": "Area.AreaSelected40",
+					"42": "Area.AreaSelected41",
+					"43": "Area.AreaSelected42",
+					"44": "Area.AreaSelected43",
+					"45": "Area.AreaSelected44",
+					"46": "Area.AreaSelected45",
+					"47": "Area.AreaSelected46",
+					"48": "Area.AreaSelected47",
+					"49": "Area.AreaSelected48",
+					"50": "Area.AreaSelected49"
+				},
+				"2": {
+					"19": "Scenes.Scenefb0",
+					"20": "Scenes.Scenefb1",
+					"21": "Scenes.Scenefb2",
+					"22": "Scenes.Scenefb3",
+					"23": "Scenes.Scenefb4",
+					"24": "Scenes.Scenefb5",
+					"25": "Scenes.Scenefb6",
+					"26": "Scenes.Scenefb7",
+					"27": "Scenes.Scenefb8",
+					"28": "Scenes.Scenefb9",
+					"29": "Scenes.Scenefb10",
+					"30": "Scenes.Scenefb11",
+					"31": "Scenes.Scenefb12",
+					"32": "Scenes.Scenefb13",
+					"33": "Scenes.Scenefb14",
+					"34": "Scenes.Scenefb15"
+				},
+				"4": {
+					"1": "Sch.ETF0",
+					"2": "Sch.ETF1",
+					"3": "Sch.ETF2",
+					"4": "Sch.ETF3",
+					"5": "Sch.ETF4",
+					"6": "Sch.ETF5",
+					"7": "Sch.ETF6",
+					"8": "Sch.ETF7",
+					"9": "Sch.ETF8",
+					"10": "Sch.ETF9",
+					"11": "Sch.ETF10",
+					"12": "Sch.fbMo0",
+					"13": "Sch.fbTu0",
+					"14": "Sch.fbWe0",
+					"15": "Sch.fbTh0",
+					"16": "Sch.fbFr0",
+					"17": "Sch.fbSa0",
+					"18": "Sch.fbSu0",
+					"19": "Sch.fbMo1",
+					"20": "Sch.fbTu1",
+					"21": "Sch.fbWe1",
+					"22": "Sch.fbTh1",
+					"23": "Sch.fbFr1",
+					"24": "Sch.fbSa1",
+					"25": "Sch.fbSu1",
+					"26": "Sch.fbMo2",
+					"27": "Sch.fbTu2",
+					"28": "Sch.fbWe2",
+					"29": "Sch.fbTh2",
+					"30": "Sch.fbFr2",
+					"31": "Sch.fbSa2",
+					"32": "Sch.fbSu2",
+					"33": "Sch.fbMo3",
+					"34": "Sch.fbTu3",
+					"35": "Sch.fbWe3",
+					"36": "Sch.fbTh3",
+					"37": "Sch.fbFr3",
+					"38": "Sch.fbSa3",
+					"39": "Sch.fbSu3",
+					"40": "Sch.fbMo4",
+					"41": "Sch.fbTu4",
+					"42": "Sch.fbWe4",
+					"43": "Sch.fbTh4",
+					"44": "Sch.fbFr4",
+					"45": "Sch.fbSa4",
+					"46": "Sch.fbSu4",
+					"47": "Sch.fbMo5",
+					"48": "Sch.fbTu5",
+					"49": "Sch.fbWe5",
+					"50": "Sch.fbTh5",
+					"51": "Sch.fbFr5",
+					"52": "Sch.fbSa5",
+					"53": "Sch.fbSu5",
+					"54": "Sch.fbMo6",
+					"55": "Sch.fbTu6",
+					"56": "Sch.fbWe6",
+					"57": "Sch.fbTh6",
+					"58": "Sch.fbFr6",
+					"59": "Sch.fbSa6",
+					"60": "Sch.fbSu6"
+				},
+				"6": {
+					"1": "Pinpad.User",
+					"2": "Pinpad.Admin"
+				}
+			},
+			"numeric": {
+				"1": {
+					"1": "Area.Size"
+				}
+			},
+			"string": {
+				"1": {
+					"1": "Area.ActiveArea",
+					"2": "Area.AreaName0",
+					"3": "Area.AreaName1",
+					"4": "Area.AreaName2",
+					"5": "Area.AreaName3",
+					"6": "Area.AreaName4",
+					"7": "Area.AreaName5",
+					"8": "Area.AreaName6",
+					"9": "Area.AreaName7",
+					"10": "Area.AreaName8",
+					"11": "Area.AreaName9",
+					"12": "Area.AreaName10",
+					"13": "Area.AreaName11",
+					"14": "Area.AreaName12",
+					"15": "Area.AreaName13",
+					"16": "Area.AreaName14",
+					"17": "Area.AreaName15",
+					"18": "Area.AreaName16",
+					"19": "Area.AreaName17",
+					"20": "Area.AreaName18",
+					"21": "Area.AreaName19",
+					"22": "Area.AreaName20",
+					"23": "Area.AreaName21",
+					"24": "Area.AreaName22",
+					"25": "Area.AreaName23",
+					"26": "Area.AreaName24",
+					"27": "Area.AreaName25",
+					"28": "Area.AreaName26",
+					"29": "Area.AreaName27",
+					"30": "Area.AreaName28",
+					"31": "Area.AreaName29",
+					"32": "Area.AreaName30",
+					"33": "Area.AreaName31",
+					"34": "Area.AreaName32",
+					"35": "Area.AreaName33",
+					"36": "Area.AreaName34",
+					"37": "Area.AreaName35",
+					"38": "Area.AreaName36",
+					"39": "Area.AreaName37",
+					"40": "Area.AreaName38",
+					"41": "Area.AreaName39",
+					"42": "Area.AreaName40",
+					"43": "Area.AreaName41",
+					"44": "Area.AreaName42",
+					"45": "Area.AreaName43",
+					"46": "Area.AreaName44",
+					"47": "Area.AreaName45",
+					"48": "Area.AreaName46",
+					"49": "Area.AreaName47",
+					"50": "Area.AreaName48",
+					"51": "Area.AreaName49"
+				},
+				"2": {
+					"1": "Scenes.ScenesName0",
+					"2": "Scenes.ScenesName1",
+					"3": "Scenes.ScenesName2",
+					"4": "Scenes.ScenesName3",
+					"5": "Scenes.ScenesName4",
+					"6": "Scenes.ScenesName5",
+					"7": "Scenes.ScenesName6",
+					"8": "Scenes.ScenesName7",
+					"9": "Scenes.ActiveScene"
+				},
+				"3": {
+					"1": "Zones.Zone1",
+					"2": "Zones.Zone2",
+					"3": "Zones.Zone3",
+					"4": "Zones.Zone4",
+					"5": "Zones.Zone5",
+					"6": "Zones.Zone6",
+					"7": "Zones.Zone7",
+					"8": "Zones.Zone8",
+					"9": "Zones.Zone9",
+					"10": "Zones.Zone10",
+					"11": "Zones.Zone11",
+					"12": "Zones.Zone12",
+					"13": "Zones.Zone13",
+					"14": "Zones.Zone14",
+					"15": "Zones.Zone15",
+					"16": "Zones.Zone16",
+					"17": "Zones.Zone17",
+					"18": "Zones.Zone18",
+					"19": "Zones.Zone19",
+					"20": "Zones.Zone20",
+					"21": "Zones.Zone21",
+					"22": "Zones.Zone22",
+					"23": "Zones.Zone23",
+					"24": "Zones.Zone24",
+					"25": "Zones.Zone25",
+					"26": "Zones.Zone26",
+					"27": "Zones.Zone27",
+					"28": "Zones.Zone28",
+					"29": "Zones.Zone29",
+					"30": "Zones.Zone30",
+					"31": "Zones.Zone31",
+					"32": "Zones.Zone32",
+					"33": "Zones.Zone33",
+					"34": "Zones.Zone34",
+					"35": "Zones.Zone35",
+					"36": "Zones.Zone36",
+					"37": "Zones.Zone37",
+					"38": "Zones.Zone38",
+					"39": "Zones.Zone39",
+					"40": "Zones.Zone40",
+					"41": "Zones.Zone41",
+					"42": "Zones.Zone42",
+					"43": "Zones.Zone43",
+					"44": "Zones.Zone44",
+					"45": "Zones.Zone45",
+					"46": "Zones.Zone46",
+					"47": "Zones.Zone47",
+					"48": "Zones.Zone48",
+					"49": "Zones.Zone49",
+					"50": "Zones.Zone50",
+					"51": "Zones.Zone51",
+					"52": "Zones.Zone52",
+					"53": "Zones.Zone53",
+					"54": "Zones.Zone54",
+					"55": "Zones.Zone55",
+					"56": "Zones.Zone56",
+					"57": "Zones.Zone57",
+					"58": "Zones.Zone58",
+					"59": "Zones.Zone59",
+					"60": "Zones.Zone60",
+					"61": "Zones.Zone61",
+					"62": "Zones.Zone62",
+					"63": "Zones.Zone63",
+					"64": "Zones.Zone64",
+					"65": "Zones.Zone65",
+					"66": "Zones.Zone66",
+					"67": "Zones.Zone67",
+					"68": "Zones.Zone68",
+					"69": "Zones.Zone69",
+					"70": "Zones.Zone70",
+					"71": "Zones.Zone71",
+					"72": "Zones.Zone72",
+					"73": "Zones.Zone73",
+					"74": "Zones.Zone74",
+					"75": "Zones.Zone75",
+					"76": "Zones.Zone76",
+					"77": "Zones.Zone77",
+					"78": "Zones.Zone78",
+					"79": "Zones.Zone79",
+					"80": "Zones.Zone80",
+					"81": "Zones.Zone81",
+					"82": "Zones.Zone82",
+					"83": "Zones.Zone83",
+					"84": "Zones.Zone84",
+					"85": "Zones.Zone85",
+					"86": "Zones.Zone86",
+					"87": "Zones.Zone87",
+					"88": "Zones.Zone88",
+					"89": "Zones.Zone89",
+					"90": "Zones.Zone90",
+					"91": "Zones.Zone91",
+					"92": "Zones.Zone92",
+					"93": "Zones.Zone93",
+					"94": "Zones.Zone94",
+					"95": "Zones.Zone95",
+					"96": "Zones.Zone96",
+					"97": "Zones.Zone97",
+					"98": "Zones.Zone98",
+					"99": "Zones.Zone99",
+					"100": "Zones.Zone100",
+					"101": "Zones.Zone101",
+					"102": "Zones.Zone102",
+					"103": "Zones.Zone103",
+					"104": "Zones.Zone104",
+					"105": "Zones.Zone105",
+					"106": "Zones.Zone106",
+					"107": "Zones.Zone107",
+					"108": "Zones.Zone108",
+					"109": "Zones.Zone109",
+					"110": "Zones.Zone110",
+					"111": "Zones.Zone111",
+					"112": "Zones.Zone112",
+					"113": "Zones.Zone113",
+					"114": "Zones.Zone114",
+					"115": "Zones.Zone115",
+					"116": "Zones.Zone116",
+					"117": "Zones.Zone117",
+					"118": "Zones.Zone118",
+					"119": "Zones.Zone119",
+					"120": "Zones.Zone120",
+					"121": "Zones.Zone121",
+					"122": "Zones.Zone122",
+					"123": "Zones.Zone123",
+					"124": "Zones.Zone124",
+					"125": "Zones.Zone125",
+					"126": "Zones.Zone126",
+					"127": "Zones.Zone127",
+					"128": "Zones.Zone128",
+					"129": "Zones.Zone129",
+					"130": "Zones.Zone130",
+					"131": "Zones.Zone131",
+					"132": "Zones.Zone132",
+					"133": "Zones.Zone133",
+					"134": "Zones.Zone134",
+					"135": "Zones.Zone135",
+					"136": "Zones.Zone136",
+					"137": "Zones.Zone137",
+					"138": "Zones.Zone138",
+					"139": "Zones.Zone139",
+					"140": "Zones.Zone140",
+					"141": "Zones.Zone141",
+					"142": "Zones.Zone142",
+					"143": "Zones.Zone143",
+					"144": "Zones.Zone144",
+					"145": "Zones.Zone145",
+					"146": "Zones.Zone146",
+					"147": "Zones.Zone147",
+					"148": "Zones.Zone148",
+					"149": "Zones.Zone149",
+					"150": "Zones.Zone150",
+					"151": "Zones.Zone151",
+					"152": "Zones.Zone152",
+					"153": "Zones.Zone153",
+					"154": "Zones.Zone154",
+					"155": "Zones.Zone155",
+					"156": "Zones.Zone156",
+					"157": "Zones.Zone157",
+					"158": "Zones.Zone158",
+					"159": "Zones.Zone159",
+					"160": "Zones.Zone160",
+					"161": "Zones.Zone161",
+					"162": "Zones.Zone162",
+					"163": "Zones.Zone163",
+					"164": "Zones.Zone164",
+					"165": "Zones.Zone165",
+					"166": "Zones.Zone166",
+					"167": "Zones.Zone167",
+					"168": "Zones.Zone168",
+					"169": "Zones.Zone169",
+					"170": "Zones.Zone170",
+					"171": "Zones.Zone171",
+					"172": "Zones.Zone172",
+					"173": "Zones.Zone173",
+					"174": "Zones.Zone174",
+					"175": "Zones.Zone175",
+					"176": "Zones.Zone176",
+					"177": "Zones.Zone177",
+					"178": "Zones.Zone178",
+					"179": "Zones.Zone179",
+					"180": "Zones.Zone180",
+					"181": "Zones.Zone181",
+					"182": "Zones.Zone182",
+					"183": "Zones.Zone183",
+					"184": "Zones.Zone184",
+					"185": "Zones.Zone185",
+					"186": "Zones.Zone186",
+					"187": "Zones.Zone187",
+					"188": "Zones.Zone188",
+					"189": "Zones.Zone189",
+					"190": "Zones.Zone190",
+					"191": "Zones.Zone191",
+					"192": "Zones.Zone192",
+					"193": "Zones.Zone193",
+					"194": "Zones.Zone194",
+					"195": "Zones.Zone195",
+					"196": "Zones.Zone196",
+					"197": "Zones.Zone197",
+					"198": "Zones.Zone198",
+					"199": "Zones.Zone199",
+					"200": "Zones.Zone200",
+					"201": "Zones.Zone201",
+					"202": "Zones.Zone202",
+					"203": "Zones.Zone203",
+					"204": "Zones.Zone204",
+					"205": "Zones.Zone205",
+					"206": "Zones.Zone206",
+					"207": "Zones.Zone207",
+					"208": "Zones.Zone208",
+					"209": "Zones.Zone209",
+					"210": "Zones.Zone210",
+					"211": "Zones.Zone211",
+					"212": "Zones.Zone212",
+					"213": "Zones.Zone213",
+					"214": "Zones.Zone214",
+					"215": "Zones.Zone215",
+					"216": "Zones.Zone216",
+					"217": "Zones.Zone217",
+					"218": "Zones.Zone218",
+					"219": "Zones.Zone219",
+					"220": "Zones.Zone220",
+					"221": "Zones.Zone221",
+					"222": "Zones.Zone222",
+					"223": "Zones.Zone223",
+					"224": "Zones.Zone224",
+					"225": "Zones.Zone225",
+					"226": "Zones.Zone226",
+					"227": "Zones.Zone227",
+					"228": "Zones.Zone228",
+					"229": "Zones.Zone229",
+					"230": "Zones.Zone230",
+					"231": "Zones.Zone231",
+					"232": "Zones.Zone232",
+					"233": "Zones.Zone233",
+					"234": "Zones.Zone234",
+					"235": "Zones.Zone235",
+					"236": "Zones.Zone236",
+					"237": "Zones.Zone237",
+					"238": "Zones.Zone238",
+					"239": "Zones.Zone239",
+					"240": "Zones.Zone240",
+					"241": "Zones.Zone241",
+					"242": "Zones.Zone242",
+					"243": "Zones.Zone243",
+					"244": "Zones.Zone244",
+					"245": "Zones.Zone245",
+					"246": "Zones.Zone246",
+					"247": "Zones.Zone247",
+					"248": "Zones.Zone248",
+					"249": "Zones.Zone249",
+					"250": "Zones.Zone250"
+				},
+				"4": {
+					"1": "Sch.EN0",
+					"2": "Sch.EN1",
+					"3": "Sch.EN2",
+					"4": "Sch.EN3",
+					"5": "Sch.EN4",
+					"6": "Sch.EN5",
+					"7": "Sch.EN6",
+					"8": "Sch.EN7",
+					"9": "Sch.EN8",
+					"10": "Sch.EN9",
+					"11": "Sch.EN10"
+				},
+				"6": {
+					"1": "Pinpad.Dialog"
+				}
+			}
+		},
+		"events": {
+			"boolean": {
+				"Area.AreaSelect0": {
+					"joinId": 1,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect1": {
+					"joinId": 2,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect2": {
+					"joinId": 3,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect3": {
+					"joinId": 4,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect4": {
+					"joinId": 5,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect5": {
+					"joinId": 6,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect6": {
+					"joinId": 7,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect7": {
+					"joinId": 8,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect8": {
+					"joinId": 9,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect9": {
+					"joinId": 10,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect10": {
+					"joinId": 11,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect11": {
+					"joinId": 12,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect12": {
+					"joinId": 13,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect13": {
+					"joinId": 14,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect14": {
+					"joinId": 15,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect15": {
+					"joinId": 16,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect16": {
+					"joinId": 17,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect17": {
+					"joinId": 18,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect18": {
+					"joinId": 19,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect19": {
+					"joinId": 20,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect20": {
+					"joinId": 21,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect21": {
+					"joinId": 22,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect22": {
+					"joinId": 23,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect23": {
+					"joinId": 24,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect24": {
+					"joinId": 25,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect25": {
+					"joinId": 26,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect26": {
+					"joinId": 27,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect27": {
+					"joinId": 28,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect28": {
+					"joinId": 29,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect29": {
+					"joinId": 30,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect30": {
+					"joinId": 31,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect31": {
+					"joinId": 32,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect32": {
+					"joinId": 33,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect33": {
+					"joinId": 34,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect34": {
+					"joinId": 35,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect35": {
+					"joinId": 36,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect36": {
+					"joinId": 37,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect37": {
+					"joinId": 38,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect38": {
+					"joinId": 39,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect39": {
+					"joinId": 40,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect40": {
+					"joinId": 41,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect41": {
+					"joinId": 42,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect42": {
+					"joinId": 43,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect43": {
+					"joinId": 44,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect44": {
+					"joinId": 45,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect45": {
+					"joinId": 46,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect46": {
+					"joinId": 47,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect47": {
+					"joinId": 48,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect48": {
+					"joinId": 49,
+					"smartObjectId": 1
+				},
+				"Area.AreaSelect49": {
+					"joinId": 50,
+					"smartObjectId": 1
+				},
+				"Scenes.Scenes0": {
+					"joinId": 1,
+					"smartObjectId": 2
+				},
+				"Scenes.Scenes1": {
+					"joinId": 2,
+					"smartObjectId": 2
+				},
+				"Scenes.Scenes2": {
+					"joinId": 3,
+					"smartObjectId": 2
+				},
+				"Scenes.Scenes3": {
+					"joinId": 4,
+					"smartObjectId": 2
+				},
+				"Scenes.Scenes4": {
+					"joinId": 5,
+					"smartObjectId": 2
+				},
+				"Scenes.Scenes5": {
+					"joinId": 6,
+					"smartObjectId": 2
+				},
+				"Scenes.Scenes6": {
+					"joinId": 7,
+					"smartObjectId": 2
+				},
+				"Scenes.Scenes7": {
+					"joinId": 8,
+					"smartObjectId": 2
+				},
+				"Scenes.Scenes8": {
+					"joinId": 9,
+					"smartObjectId": 2
+				},
+				"Scenes.Scenes9": {
+					"joinId": 10,
+					"smartObjectId": 2
+				},
+				"Scenes.Scenes10": {
+					"joinId": 11,
+					"smartObjectId": 2
+				},
+				"Scenes.Scenes11": {
+					"joinId": 12,
+					"smartObjectId": 2
+				},
+				"Scenes.Scenes12": {
+					"joinId": 13,
+					"smartObjectId": 2
+				},
+				"Scenes.Scenes13": {
+					"joinId": 14,
+					"smartObjectId": 2
+				},
+				"Scenes.Scenes14": {
+					"joinId": 15,
+					"smartObjectId": 2
+				},
+				"Scenes.Scenes15": {
+					"joinId": 16,
+					"smartObjectId": 2
+				},
+				"Scenes.Raise": {
+					"joinId": 17,
+					"smartObjectId": 2
+				},
+				"Scenes.Lower": {
+					"joinId": 18,
+					"smartObjectId": 2
+				},
+				"Sch.ET0": {
+					"joinId": 1,
+					"smartObjectId": 4
+				},
+				"Sch.ET1": {
+					"joinId": 2,
+					"smartObjectId": 4
+				},
+				"Sch.ET2": {
+					"joinId": 3,
+					"smartObjectId": 4
+				},
+				"Sch.ET3": {
+					"joinId": 4,
+					"smartObjectId": 4
+				},
+				"Sch.ET4": {
+					"joinId": 5,
+					"smartObjectId": 4
+				},
+				"Sch.ET5": {
+					"joinId": 6,
+					"smartObjectId": 4
+				},
+				"Sch.ET6": {
+					"joinId": 7,
+					"smartObjectId": 4
+				},
+				"Sch.ET7": {
+					"joinId": 8,
+					"smartObjectId": 4
+				},
+				"Sch.ET8": {
+					"joinId": 9,
+					"smartObjectId": 4
+				},
+				"Sch.ET9": {
+					"joinId": 10,
+					"smartObjectId": 4
+				},
+				"Sch.ET10": {
+					"joinId": 11,
+					"smartObjectId": 4
+				},
+				"Sch.Mo0": {
+					"joinId": 12,
+					"smartObjectId": 4
+				},
+				"Sch.Tu0": {
+					"joinId": 13,
+					"smartObjectId": 4
+				},
+				"Sch.We0": {
+					"joinId": 14,
+					"smartObjectId": 4
+				},
+				"Sch.Th0": {
+					"joinId": 15,
+					"smartObjectId": 4
+				},
+				"Sch.Fr0": {
+					"joinId": 16,
+					"smartObjectId": 4
+				},
+				"Sch.Sa0": {
+					"joinId": 17,
+					"smartObjectId": 4
+				},
+				"Sch.Su0": {
+					"joinId": 18,
+					"smartObjectId": 4
+				},
+				"Sch.Mo1": {
+					"joinId": 19,
+					"smartObjectId": 4
+				},
+				"Sch.Tu1": {
+					"joinId": 20,
+					"smartObjectId": 4
+				},
+				"Sch.We1": {
+					"joinId": 21,
+					"smartObjectId": 4
+				},
+				"Sch.Th1": {
+					"joinId": 22,
+					"smartObjectId": 4
+				},
+				"Sch.Fr1": {
+					"joinId": 23,
+					"smartObjectId": 4
+				},
+				"Sch.Sa1": {
+					"joinId": 24,
+					"smartObjectId": 4
+				},
+				"Sch.Su1": {
+					"joinId": 25,
+					"smartObjectId": 4
+				},
+				"Sch.Mo2": {
+					"joinId": 26,
+					"smartObjectId": 4
+				},
+				"Sch.Tu2": {
+					"joinId": 27,
+					"smartObjectId": 4
+				},
+				"Sch.We2": {
+					"joinId": 28,
+					"smartObjectId": 4
+				},
+				"Sch.Th2": {
+					"joinId": 29,
+					"smartObjectId": 4
+				},
+				"Sch.Fr2": {
+					"joinId": 30,
+					"smartObjectId": 4
+				},
+				"Sch.Sa2": {
+					"joinId": 31,
+					"smartObjectId": 4
+				},
+				"Sch.Su2": {
+					"joinId": 32,
+					"smartObjectId": 4
+				},
+				"Sch.Mo3": {
+					"joinId": 33,
+					"smartObjectId": 4
+				},
+				"Sch.Tu3": {
+					"joinId": 34,
+					"smartObjectId": 4
+				},
+				"Sch.We3": {
+					"joinId": 35,
+					"smartObjectId": 4
+				},
+				"Sch.Th3": {
+					"joinId": 36,
+					"smartObjectId": 4
+				},
+				"Sch.Fr3": {
+					"joinId": 37,
+					"smartObjectId": 4
+				},
+				"Sch.Sa3": {
+					"joinId": 38,
+					"smartObjectId": 4
+				},
+				"Sch.Su3": {
+					"joinId": 39,
+					"smartObjectId": 4
+				},
+				"Sch.Mo4": {
+					"joinId": 40,
+					"smartObjectId": 4
+				},
+				"Sch.Tu4": {
+					"joinId": 41,
+					"smartObjectId": 4
+				},
+				"Sch.We4": {
+					"joinId": 42,
+					"smartObjectId": 4
+				},
+				"Sch.Th4": {
+					"joinId": 43,
+					"smartObjectId": 4
+				},
+				"Sch.Fr4": {
+					"joinId": 44,
+					"smartObjectId": 4
+				},
+				"Sch.Sa4": {
+					"joinId": 45,
+					"smartObjectId": 4
+				},
+				"Sch.Su4": {
+					"joinId": 46,
+					"smartObjectId": 4
+				},
+				"Sch.Mo5": {
+					"joinId": 47,
+					"smartObjectId": 4
+				},
+				"Sch.Tu5": {
+					"joinId": 48,
+					"smartObjectId": 4
+				},
+				"Sch.We5": {
+					"joinId": 49,
+					"smartObjectId": 4
+				},
+				"Sch.Th5": {
+					"joinId": 50,
+					"smartObjectId": 4
+				},
+				"Sch.Fr5": {
+					"joinId": 51,
+					"smartObjectId": 4
+				},
+				"Sch.Sa5": {
+					"joinId": 52,
+					"smartObjectId": 4
+				},
+				"Sch.Su5": {
+					"joinId": 53,
+					"smartObjectId": 4
+				},
+				"Sch.Mo6": {
+					"joinId": 54,
+					"smartObjectId": 4
+				},
+				"Sch.Tu6": {
+					"joinId": 55,
+					"smartObjectId": 4
+				},
+				"Sch.We6": {
+					"joinId": 56,
+					"smartObjectId": 4
+				},
+				"Sch.Th6": {
+					"joinId": 57,
+					"smartObjectId": 4
+				},
+				"Sch.Fr6": {
+					"joinId": 58,
+					"smartObjectId": 4
+				},
+				"Sch.Sa6": {
+					"joinId": 59,
+					"smartObjectId": 4
+				},
+				"Sch.Su6": {
+					"joinId": 60,
+					"smartObjectId": 4
+				},
+				"Zonerename.Zoneflag1": {
+					"joinId": 1,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag2": {
+					"joinId": 2,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag3": {
+					"joinId": 3,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag4": {
+					"joinId": 4,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag5": {
+					"joinId": 5,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag6": {
+					"joinId": 6,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag7": {
+					"joinId": 7,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag8": {
+					"joinId": 8,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag9": {
+					"joinId": 9,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag10": {
+					"joinId": 10,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag11": {
+					"joinId": 11,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag12": {
+					"joinId": 12,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag13": {
+					"joinId": 13,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag14": {
+					"joinId": 14,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag15": {
+					"joinId": 15,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag16": {
+					"joinId": 16,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag17": {
+					"joinId": 17,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag18": {
+					"joinId": 18,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag19": {
+					"joinId": 19,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag20": {
+					"joinId": 20,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag21": {
+					"joinId": 21,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag22": {
+					"joinId": 22,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag23": {
+					"joinId": 23,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag24": {
+					"joinId": 24,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag25": {
+					"joinId": 25,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag26": {
+					"joinId": 26,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag27": {
+					"joinId": 27,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag28": {
+					"joinId": 28,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag29": {
+					"joinId": 29,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag30": {
+					"joinId": 30,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag31": {
+					"joinId": 31,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag32": {
+					"joinId": 32,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag33": {
+					"joinId": 33,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag34": {
+					"joinId": 34,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag35": {
+					"joinId": 35,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag36": {
+					"joinId": 36,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag37": {
+					"joinId": 37,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag38": {
+					"joinId": 38,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag39": {
+					"joinId": 39,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag40": {
+					"joinId": 40,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag41": {
+					"joinId": 41,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag42": {
+					"joinId": 42,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag43": {
+					"joinId": 43,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag44": {
+					"joinId": 44,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag45": {
+					"joinId": 45,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag46": {
+					"joinId": 46,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag47": {
+					"joinId": 47,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag48": {
+					"joinId": 48,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag49": {
+					"joinId": 49,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag50": {
+					"joinId": 50,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag51": {
+					"joinId": 51,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag52": {
+					"joinId": 52,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag53": {
+					"joinId": 53,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag54": {
+					"joinId": 54,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag55": {
+					"joinId": 55,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag56": {
+					"joinId": 56,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag57": {
+					"joinId": 57,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag58": {
+					"joinId": 58,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag59": {
+					"joinId": 59,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag60": {
+					"joinId": 60,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag61": {
+					"joinId": 61,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag62": {
+					"joinId": 62,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag63": {
+					"joinId": 63,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag64": {
+					"joinId": 64,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag65": {
+					"joinId": 65,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag66": {
+					"joinId": 66,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag67": {
+					"joinId": 67,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag68": {
+					"joinId": 68,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag69": {
+					"joinId": 69,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag70": {
+					"joinId": 70,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag71": {
+					"joinId": 71,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag72": {
+					"joinId": 72,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag73": {
+					"joinId": 73,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag74": {
+					"joinId": 74,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag75": {
+					"joinId": 75,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag76": {
+					"joinId": 76,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag77": {
+					"joinId": 77,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag78": {
+					"joinId": 78,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag79": {
+					"joinId": 79,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag80": {
+					"joinId": 80,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag81": {
+					"joinId": 81,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag82": {
+					"joinId": 82,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag83": {
+					"joinId": 83,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag84": {
+					"joinId": 84,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag85": {
+					"joinId": 85,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag86": {
+					"joinId": 86,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag87": {
+					"joinId": 87,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag88": {
+					"joinId": 88,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag89": {
+					"joinId": 89,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag90": {
+					"joinId": 90,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag91": {
+					"joinId": 91,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag92": {
+					"joinId": 92,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag93": {
+					"joinId": 93,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag94": {
+					"joinId": 94,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag95": {
+					"joinId": 95,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag96": {
+					"joinId": 96,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag97": {
+					"joinId": 97,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag98": {
+					"joinId": 98,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag99": {
+					"joinId": 99,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag100": {
+					"joinId": 100,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag101": {
+					"joinId": 101,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag102": {
+					"joinId": 102,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag103": {
+					"joinId": 103,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag104": {
+					"joinId": 104,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag105": {
+					"joinId": 105,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag106": {
+					"joinId": 106,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag107": {
+					"joinId": 107,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag108": {
+					"joinId": 108,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag109": {
+					"joinId": 109,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag110": {
+					"joinId": 110,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag111": {
+					"joinId": 111,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag112": {
+					"joinId": 112,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag113": {
+					"joinId": 113,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag114": {
+					"joinId": 114,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag115": {
+					"joinId": 115,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag116": {
+					"joinId": 116,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag117": {
+					"joinId": 117,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag118": {
+					"joinId": 118,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag119": {
+					"joinId": 119,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag120": {
+					"joinId": 120,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag121": {
+					"joinId": 121,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag122": {
+					"joinId": 122,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag123": {
+					"joinId": 123,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag124": {
+					"joinId": 124,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag125": {
+					"joinId": 125,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag126": {
+					"joinId": 126,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag127": {
+					"joinId": 127,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag128": {
+					"joinId": 128,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag129": {
+					"joinId": 129,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag130": {
+					"joinId": 130,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag131": {
+					"joinId": 131,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag132": {
+					"joinId": 132,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag133": {
+					"joinId": 133,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag134": {
+					"joinId": 134,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag135": {
+					"joinId": 135,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag136": {
+					"joinId": 136,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag137": {
+					"joinId": 137,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag138": {
+					"joinId": 138,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag139": {
+					"joinId": 139,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag140": {
+					"joinId": 140,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag141": {
+					"joinId": 141,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag142": {
+					"joinId": 142,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag143": {
+					"joinId": 143,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag144": {
+					"joinId": 144,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag145": {
+					"joinId": 145,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag146": {
+					"joinId": 146,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag147": {
+					"joinId": 147,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag148": {
+					"joinId": 148,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag149": {
+					"joinId": 149,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag150": {
+					"joinId": 150,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag151": {
+					"joinId": 151,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag152": {
+					"joinId": 152,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag153": {
+					"joinId": 153,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag154": {
+					"joinId": 154,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag155": {
+					"joinId": 155,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag156": {
+					"joinId": 156,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag157": {
+					"joinId": 157,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag158": {
+					"joinId": 158,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag159": {
+					"joinId": 159,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag160": {
+					"joinId": 160,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag161": {
+					"joinId": 161,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag162": {
+					"joinId": 162,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag163": {
+					"joinId": 163,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag164": {
+					"joinId": 164,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag165": {
+					"joinId": 165,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag166": {
+					"joinId": 166,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag167": {
+					"joinId": 167,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag168": {
+					"joinId": 168,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag169": {
+					"joinId": 169,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag170": {
+					"joinId": 170,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag171": {
+					"joinId": 171,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag172": {
+					"joinId": 172,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag173": {
+					"joinId": 173,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag174": {
+					"joinId": 174,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag175": {
+					"joinId": 175,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag176": {
+					"joinId": 176,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag177": {
+					"joinId": 177,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag178": {
+					"joinId": 178,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag179": {
+					"joinId": 179,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag180": {
+					"joinId": 180,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag181": {
+					"joinId": 181,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag182": {
+					"joinId": 182,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag183": {
+					"joinId": 183,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag184": {
+					"joinId": 184,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag185": {
+					"joinId": 185,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag186": {
+					"joinId": 186,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag187": {
+					"joinId": 187,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag188": {
+					"joinId": 188,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag189": {
+					"joinId": 189,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag190": {
+					"joinId": 190,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag191": {
+					"joinId": 191,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag192": {
+					"joinId": 192,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag193": {
+					"joinId": 193,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag194": {
+					"joinId": 194,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag195": {
+					"joinId": 195,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag196": {
+					"joinId": 196,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag197": {
+					"joinId": 197,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag198": {
+					"joinId": 198,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag199": {
+					"joinId": 199,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag200": {
+					"joinId": 200,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag201": {
+					"joinId": 201,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag202": {
+					"joinId": 202,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag203": {
+					"joinId": 203,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag204": {
+					"joinId": 204,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag205": {
+					"joinId": 205,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag206": {
+					"joinId": 206,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag207": {
+					"joinId": 207,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag208": {
+					"joinId": 208,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag209": {
+					"joinId": 209,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag210": {
+					"joinId": 210,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag211": {
+					"joinId": 211,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag212": {
+					"joinId": 212,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag213": {
+					"joinId": 213,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag214": {
+					"joinId": 214,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag215": {
+					"joinId": 215,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag216": {
+					"joinId": 216,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag217": {
+					"joinId": 217,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag218": {
+					"joinId": 218,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag219": {
+					"joinId": 219,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag220": {
+					"joinId": 220,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag221": {
+					"joinId": 221,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag222": {
+					"joinId": 222,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag223": {
+					"joinId": 223,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag224": {
+					"joinId": 224,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag225": {
+					"joinId": 225,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag226": {
+					"joinId": 226,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag227": {
+					"joinId": 227,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag228": {
+					"joinId": 228,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag229": {
+					"joinId": 229,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag230": {
+					"joinId": 230,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag231": {
+					"joinId": 231,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag232": {
+					"joinId": 232,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag233": {
+					"joinId": 233,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag234": {
+					"joinId": 234,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag235": {
+					"joinId": 235,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag236": {
+					"joinId": 236,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag237": {
+					"joinId": 237,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag238": {
+					"joinId": 238,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag239": {
+					"joinId": 239,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag240": {
+					"joinId": 240,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag241": {
+					"joinId": 241,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag242": {
+					"joinId": 242,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag243": {
+					"joinId": 243,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag244": {
+					"joinId": 244,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag245": {
+					"joinId": 245,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag246": {
+					"joinId": 246,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag247": {
+					"joinId": 247,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag248": {
+					"joinId": 248,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag249": {
+					"joinId": 249,
+					"smartObjectId": 5
+				},
+				"Zonerename.Zoneflag250": {
+					"joinId": 250,
+					"smartObjectId": 5
+				},
+				"Pinpad.N1": {
+					"joinId": 1,
+					"smartObjectId": 6
+				},
+				"Pinpad.N2": {
+					"joinId": 2,
+					"smartObjectId": 6
+				},
+				"Pinpad.N3": {
+					"joinId": 3,
+					"smartObjectId": 6
+				},
+				"Pinpad.N4": {
+					"joinId": 4,
+					"smartObjectId": 6
+				},
+				"Pinpad.N5": {
+					"joinId": 5,
+					"smartObjectId": 6
+				},
+				"Pinpad.N6": {
+					"joinId": 6,
+					"smartObjectId": 6
+				},
+				"Pinpad.N7": {
+					"joinId": 7,
+					"smartObjectId": 6
+				},
+				"Pinpad.N8": {
+					"joinId": 8,
+					"smartObjectId": 6
+				},
+				"Pinpad.N9": {
+					"joinId": 9,
+					"smartObjectId": 6
+				},
+				"Pinpad.N10": {
+					"joinId": 10,
+					"smartObjectId": 6
+				},
+				"Pinpad.N11": {
+					"joinId": 11,
+					"smartObjectId": 6
+				}
+			}
+		}
+	}
+}

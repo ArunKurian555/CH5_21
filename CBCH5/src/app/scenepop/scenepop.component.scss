@@ -1,0 +1,40 @@
+.scenetile
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 10px;
+    justify-items: center;
+}
+  
+.scnbtn
+{
+    height: 4em; width: 5em; padding: 0; margin: 4px; font-size: 1.5em;
+}
+
+.editname
+{
+    height: 1em; width: 1em;
+}
+@media (max-width: 650px) 
+{
+
+.scenetile
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: none;
+    overflow: scroll;
+    justify-items: center;
+}
+.scnbtn
+{
+    height: 2em; 
+}
+.ls{
+    display: none;
+}
+
+}
+
+
+
